@@ -9,7 +9,7 @@ compiler's warnings.
 By default all warnings are considered as errors.
 
 If system uses ``:package-inferred-system`` class, then all known subsystems
-are also recompiled.
+are also will be recompiled.
 
 How to call:
 
