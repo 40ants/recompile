@@ -16,6 +16,14 @@ How to call:
 .. code:: lisp
 
           (ql:quickload :recompile)
+          ;; This will ensure, your system is known to asdf
+          ;; but warnings will be suppresed or not shown
+          ;; because some lisp files are not newer than their
+          ;; cached fasl counterparts
+          (ql:quickload :your-system)
+
+          ;; And this will fully recompile the system
+          ;; ignoring already existing fasl files
           (recompile:recompile :your-system)
 
 
