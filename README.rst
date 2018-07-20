@@ -8,7 +8,7 @@ compiler's warnings.
 
 By default all warnings are considered as errors.
 
-If system uses :package-inferred-system class, then all known subsystems
+If system uses ``:package-inferred-system`` class, then all known subsystems
 are also recompiled.
 
 How to call:
